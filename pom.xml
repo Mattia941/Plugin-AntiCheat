@@ -9,9 +9,6 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>AternixMCAnticheat</name>
-    <description>Plugin Custom Per Anticheat 1.21.1</description>
-
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -19,12 +16,14 @@
     </properties>
 
     <repositories>
-        <!-- Purpur Repo -->
+        <repository>
+            <id>papermc-repo</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
+        </repository>
         <repository>
             <id>purpur-repo</id>
             <url>https://repo.purpurmc.org/snapshots</url>
         </repository>
-        <!-- PacketEvents Repo -->
         <repository>
             <id>codemc-releases</id>
             <url>https://repo.codemc.io/repository/maven-releases/</url>
@@ -32,14 +31,12 @@
     </repositories>
 
     <dependencies>
-        <!-- Purpur API 1.21.1 -->
         <dependency>
             <groupId>org.purpurmc.purpur</groupId>
             <artifactId>purpur-api</artifactId>
             <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <!-- PacketEvents API -->
         <dependency>
             <groupId>com.github.retrooper</groupId>
             <artifactId>packetevents-spigot</artifactId>
