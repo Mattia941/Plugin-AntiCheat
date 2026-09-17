@@ -1,0 +1,16 @@
+name: VulcanLite
+version: 1.0.0
+main: com.anticheat.AntiCheat
+api-version: '1.21'
+depend: [PacketEvents]
+author: AnticheatDev
+description: Packet-level AntiCheat system inspired by Vulcan for Purpur 1.21.1
+commands:
+  vulcanlite:
+    description: Comandi principali per VulcanLite
+    permission: vulcanlite.admin
+    aliases: [vl, anticheat]
+permissions:
+  vulcanlite.admin:
+    description: Riceve gli avvisi di rilevamento e gestisce il plugin
+    default: op
