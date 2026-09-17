@@ -9,8 +9,8 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>VulcanLite</name>
-    <description>Advanced Packet-Based Anti-Cheat Plugin for Purpur 1.21.1</description>
+    <name>AternixMCAnticheat</name>
+    <description>Plugin Custom Per Anticheat 1.21.1</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
